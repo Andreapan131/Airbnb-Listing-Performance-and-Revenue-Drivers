@@ -3,7 +3,68 @@
 ## 📌 Project Purpose
 
 ## 📊 Dataset Description
-- Source: []
-- The dataset includes
+- Source: [Airbnb NYC Listings](https://insideairbnb.com/get-the-data/)
+- The original dataset includes 79 columns and 36111 rows. After selecting and converting columns, we have 53 columns for analysis.
   
-- Data Dictionary: [click here to see the whole column definition](https://github.com/Andreapan131/MarketingAnalysis_Aribnb-Listings-Performance/blob/main/Airbnb%20Open%20Data%20Dictionary.xlsx)
+- Data Dictionary: [Click here to see the whole column definition](https://github.com/Andreapan131/MarketingAnalysis_Aribnb-Listings-Performance/blob/main/Airbnb%20Open%20Data%20Dictionary.xlsx)
+  - **Host & Listing Characteristics**  
+    e.g. host_is_superhost, host_response_time, host_years_active, host_listings_count, accommodates, bedrooms, bathrooms, beds, amenities, room_type, latitude, longitude, neighbourhood...
+  - **Pricing & Performance Metrics**  
+    e.g. price, minimum_nights, maximum_nights, instant_bookable, estimated_revenue_l365d, estimated_occupancy_l365d
+  - **Reviews & Demand Signals**  
+    e.g. review_scores, number_of_reviews, reviews_per_month, number_of_reviews_ltm, number_of_reviews_l30d, *review_cluster
+
+## 🏷 Methodology
+### 1️⃣ Data Preprocessing
+- Data Cleaning
+  - Dropped columns and rows
+  - Removed outliers and missing values
+  - Transformed data type and format
+
+### 2️⃣ K-means Clustering
+- Applied K-means clustering using review-related variables
+- Used the Elbow Method to determine the optimal number of clusters (k = 3)
+- Iteratively assigned data points to clusters based on similarity
+- Merged cluster labels into the original dataset
+
+### 3️⃣ Statistical Testing (ANOVA)
+One-way ANOVA was conducted to evaluate whether the review-based clusters represent meaningful and distinct group.
+- Tested whether customer engagement (measured by review volume) differs significantly across clusters
+- Examined whether pricing differs across clusters to ensure that observed performance differences are not simply driven by price
+
+### 4️⃣ Regression Analysis
+Because cluster patterns alone cannot establish a review–revenue relationship, linear regression was used as a formal modeling approach.
+- Estimated revenue over the past 365 days was used as the dependent variable
+- Overall review score was specified as the key independent variable
+- Control variables (price, neighborhood, host experience, and listing capacity) were included to hold other factors constant
+
+### 5️⃣ Data Visualization
+- Cluster-level comparisons and distributions
+- Regression relationships between review quality and revenue
+- Neighborhood-level performance patterns
+
+## 🔍 Key Findings & Insights
+- 1️⃣ **Review Quality Differs Meaningfully Across Listings**
+  - Low-quality listings underperform most on perceived value and accuracy
+  - Cleanliness and communication decline consistently with lower review quality
+  
+- 2️⃣ **Host Experience and Review Volume**
+  - High rating clusters are associated with more experienced hosts
+  - Listings in higher-quality clusters receive more reviews
+    
+- 3️⃣ **Performance Gaps Vary by Neighborhood**
+  - Manhattan has the highest propotion of low rating listings and the smallest share of top-rated listings
+  - Staten Island shows the opposite pattern, with the strongest concentration of high-quality listings
+  
+- 4️⃣ **Demand Follows Quality, Not Price**
+  - Prices do not differ meaningfully across review-based clusters
+  - Review quality has a statistically significant positive association with revenue after controlling for price, location, and listing features
+
+## 📊 Visualizations
+
+
+## 🚀 Business & Social Implications
+
+
+## 📂 Repository Files
+
