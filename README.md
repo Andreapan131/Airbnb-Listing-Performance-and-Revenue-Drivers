@@ -71,7 +71,7 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 
 ### Average Price by Review Cluster
 ![Price_by_Review_Cluster](Price_by_Review_Cluster.png)
-- Average prices do not differ meaningfully across clusters, suggesting that performance gaps are not driven by pricing
+- Average prices do not differ meaningfully across clusters, suggesting performance gaps are not driven by pricing
 
 ### Review Quality Is a Key Revenue Driver
 ![OLS Coefficient Plot](regression_coefficients.png)
