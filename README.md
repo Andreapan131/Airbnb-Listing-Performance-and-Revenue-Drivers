@@ -1,6 +1,6 @@
 # MarketingAnalysis_Aribnb-Listings-Performance
-
 ## 📌 Project Purpose
+This project aims to explore how Airbnb and its existing hosts in New York City can protect and grow revenue under Local Law 18 using listing-level data. This analysis identifies key performance drivers that inform platform strategy and host optimization decisions.
 
 ## 📊 Dataset Description
 - Source: [Airbnb NYC Listings](https://insideairbnb.com/get-the-data/)
