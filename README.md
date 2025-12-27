@@ -43,30 +43,32 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 - Neighborhood-level performance patterns
 
 ## 🔍 Key Findings & Insights
-- 1️⃣ **Review Quality Differs Meaningfully Across Listings**
-  - Low-quality listings underperform most on perceived value and accuracy
-  - Cleanliness and communication decline consistently with lower review quality
+❶ **Review Quality Differs Meaningfully Across Listings**
+- Low-quality listings underperform most on perceived value and accuracy
+- Cleanliness and communication decline consistently with lower review quality
   
-- 2️⃣ **Host Experience and Review Volume**
-  - High rating clusters are associated with more experienced hosts
-  - Listings in higher-quality clusters receive more reviews
+❷ **Host Experience and Review Volume**
+- High rating clusters are associated with more experienced hosts
+- Listings in higher-quality clusters receive more reviews
     
-- 3️⃣ **Performance Gaps Vary by Neighborhood**
-  - Manhattan has the highest propotion of low rating listings and the smallest share of top-rated listings
-  - Staten Island shows the opposite pattern, with the strongest concentration of high-quality listings
+❸ **Performance Gaps Vary by Neighborhood**
+- Manhattan has the highest propotion of low rating listings and the smallest share of top-rated listings
+- Staten Island shows the opposite pattern, with the strongest concentration of high-quality listings
   
-- 4️⃣ **Demand Follows Quality, Not Price**
-  - Prices do not differ meaningfully across review-based clusters
-  - Review quality has a statistically significant positive association with revenue after controlling for price, location, and listing features
+❹ **Demand Follows Quality, Not Price**
+- Prices do not differ meaningfully across review-based clusters
+- Review quality has a statistically significant positive association with revenue after controlling for price, location, and listing features
 
 ## 📊 Visualizations
 
-### Review_Quality_Segmentation
+### Review_Score_Segmentation
 <img src="Review_Quality_Segmentation.png" width="600">
-- Review quality differs meaningfully across listings
+
+- Review quality differs meaningfully across listings  
 
 ### Demand_by_Review_Cluster
 <img src="Demand_by_Review_Cluster.png" width="600">
+
 - Higher review quality is associated with higher occupancy
 
 ### Average Price by Review Cluster
@@ -86,4 +88,11 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 - Target quality investments geographically for maximum impact
   
 ## 📂 Repository Files
-
+- **Airbnb_MarketingAnalysis_code.py** – Script for data analysis and visualization
+- **Airbnb_FinalData.xlsx** – Dataset used in the analysis
+- **Airbnb Open Data Dictionary.xlsx** – Dictionary for the dataset
+- **Review_Quality_Segmentation.png** – Average Rating across clusters visualization
+- **Demand_by_Review_Cluster.png** – Occupancy across clusters graph
+- **Price_by_Review_Cluster.png** – Price distribution across clusters plot
+- **regression_coefficients.png** – Regression coefficients with revenue visual
+- **README.md** – Project documentation
