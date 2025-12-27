@@ -1,18 +1,19 @@
 # Airbnb Listing Performance and Revenue Drivers Analysis
 ## 📌 Project Purpose
-This project aims to explore how Airbnb and its existing hosts in New York City can protect and grow revenue under Local Law 18 using listing-level data. This analysis identifies key performance drivers that inform platform strategy and host optimization decisions.
+This project aims to explore how Airbnb and its existing hosts in New York City can protect and grow revenue under Local Law 18. Using listing-level data, the goal is to classify listings into **"low-rating", "mid-rating", or "high-rating"**, based on review rating features. This analysis identifies key performance drivers that inform **platform strategy** and **host optimization** decisions.
 
 ## 📊 Dataset Description
 - Source: [Airbnb NYC Listings](https://insideairbnb.com/get-the-data/)
 - The original dataset includes 79 columns and 36111 rows. After cleaning, we have 53 columns for analysis
-  
-- Data Dictionary: [Click here to see the whole column definition](https://github.com/Andreapan131/MarketingAnalysis_Aribnb-Listings-Performance/blob/main/Airbnb%20Open%20Data%20Dictionary.xlsx)
-  - **Host & Listing Characteristics**  
-    e.g. host_is_superhost, host_response_time, host_years_active, host_listings_count, accommodates, bedrooms, bathrooms, beds, amenities, room_type, latitude, longitude, neighbourhood...
+- Last updated on 10/01/2025
+
+- Data Dictionary: [See Full Definition HERE](https://github.com/Andreapan131/MarketingAnalysis_Aribnb-Listings-Performance/blob/main/Airbnb%20Open%20Data%20Dictionary.xlsx)
+  - **Host & Listing Characteristics**
+    - host_is_superhost, host_response_time, host_years_active, host_listings_count, accommodates, bedrooms, bathrooms, beds, amenities, room_type, latitude, longitude, neighbourhood...
   - **Pricing & Performance Metrics**  
-    e.g. price, minimum_nights, maximum_nights, instant_bookable, estimated_revenue_l365d, estimated_occupancy_l365d
+    - price, minimum_nights, maximum_nights, instant_bookable, estimated_revenue_l365d, estimated_occupancy_l365d
   - **Reviews & Demand Signals**  
-    e.g. review_scores, number_of_reviews, reviews_per_month, number_of_reviews_ltm, number_of_reviews_l30d, *review_cluster
+    - review_scores, number_of_reviews, reviews_per_month, number_of_reviews_ltm, number_of_reviews_l30d, *review_cluster
 
 ## 🏷 Methodology
 ### 1️⃣ Data Preprocessing
@@ -61,21 +62,21 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 
 ## 📊 Visualizations
 
-### Review_Score_Segmentation
+### ✦ Review_Score_Segmentation
 <img src="Review_Quality_Segmentation.png" width="600">
 
 - Review quality differs meaningfully across listings  
 
-### Demand_by_Review_Cluster
-<img src="Demand_by_Review_Cluster.png" width="600">
+### ✦ Demand_by_Review_Cluster
+<img src="Demand_by_Review_Cluster.png" width="570">
 
 - Higher review quality is associated with higher occupancy
 
-### Average Price by Review Cluster
+### ✦ Average Price by Review Cluster
 ![Price_by_Review_Cluster](Price_by_Review_Cluster.png)
 - Average prices do not differ meaningfully across clusters, suggesting performance gaps are not driven by pricing
 
-### Review Quality Is a Key Revenue Driver
+### ✦ Review Quality Is a Key Revenue Driver
 ![OLS Coefficient Plot](regression_coefficients.png)
 
 - Review rating shows the strongest statistically positive association with revenue
