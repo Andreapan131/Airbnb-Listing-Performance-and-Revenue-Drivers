@@ -61,6 +61,16 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 
 ## 📊 Visualizations
 
+### Average Price by Review Cluster
+![Price_by_Review_Cluster](Price_by_Review_Cluster.png)
+
+- Average prices do not differ meaningfully across clusters, suggesting that performance gaps are not driven by pricing.
+
+### Review Quality Is a Key Revenue Driver
+![OLS Coefficient Plot](regression_coefficients.png)
+
+- Review rating shows the strongest statistically positive association with revenue
+- +1 review point ≈ +$5,300 in annual revenue
 
 ## 🚀 Business & Social Implications
 - Shift from supply-driven growth to quality-driven growth
