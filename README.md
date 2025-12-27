@@ -89,11 +89,11 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 - Target quality investments geographically for maximum impact
   
 ## 📂 Repository Files
-- **Airbnb_MarketingAnalysis_code.py** – Script for data analysis and visualization
-- **Airbnb_FinalData.xlsx** – Dataset used in the analysis
-- **Airbnb Open Data Dictionary.xlsx** – Dictionary for the dataset
-- **Review_Quality_Segmentation.png** – Average Rating across clusters visualization
-- **Demand_by_Review_Cluster.png** – Occupancy across clusters graph
-- **Price_by_Review_Cluster.png** – Price distribution across clusters plot
-- **regression_coefficients.png** – Regression coefficients with revenue visual
-- **README.md** – Project documentation
+- `Airbnb_MarketingAnalysis_code.py` – Script for data analysis and visualization
+- `Airbnb_FinalData.xlsx` – Dataset used in the analysis
+- `Airbnb Open Data Dictionary.xlsx – Dictionary for the dataset
+- `Review_Quality_Segmentation.png` – Average Rating across clusters visualization
+- `Demand_by_Review_Cluster.png` – Occupancy across clusters graph
+- `Price_by_Review_Cluster.png` – Price distribution across clusters plot
+- `regression_coefficients.png` – Regression coefficients with revenue visual
+- `README.md` – Project documentation
