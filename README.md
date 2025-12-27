@@ -61,10 +61,17 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 
 ## 📊 Visualizations
 
+### Review_Quality_Segmentation
+<img src="Review_Quality_Segmentation.png" width="600">
+- Review quality differs meaningfully across listings
+
+### Demand_by_Review_Cluster
+<img src="Demand_by_Review_Cluster.png" width="600">
+- Higher review quality is associated with higher occupancy
+
 ### Average Price by Review Cluster
 ![Price_by_Review_Cluster](Price_by_Review_Cluster.png)
-
-- Average prices do not differ meaningfully across clusters, suggesting that performance gaps are not driven by pricing.
+- Average prices do not differ meaningfully across clusters, suggesting that performance gaps are not driven by pricing
 
 ### Review Quality Is a Key Revenue Driver
 ![OLS Coefficient Plot](regression_coefficients.png)
