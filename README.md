@@ -82,7 +82,7 @@ Because cluster patterns alone cannot establish a review–revenue relationship,
 - Review rating shows the strongest statistically positive association with revenue
 - +1 review point ≈ +$5,300 in annual revenue
 
-## 🚀 Business & Social Implications
+## 🚀 Business Implications
 - Shift from supply-driven growth to quality-driven growth
 - Higher review volume strengthens platform reliability by increasing transparency and guest confidence
 - Pricing cannot compensate for poor quality and will not drive occupancy increases
